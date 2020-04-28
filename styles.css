@@ -1,4 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("assets/Layer 7.png");
+}
+
 nav {
   text-align: center;
   text-decoration: none;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: inline;
+}
+
+
+#box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
 }
