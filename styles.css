@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   margin: 0px;
   font-family: Lato, sans-serif;
 }
@@ -38,6 +38,11 @@ li a {
 
 h1 {
   text-transform: uppercase;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 .box1 {
@@ -54,12 +59,14 @@ h1 {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  text-align: center;
   width: 1000px;
 }
 
+
 .textbox1 p {
   line-height: 2;
+  text-align: justify;
+  font-size: 14px;
 }
 
 .box2 {
@@ -72,11 +79,11 @@ h1 {
 .box2-1 {
   background-image: url("assets/Layer 10.png");
   background-position: center;
-  height: 600px;
-  width: 1067px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
+  width: 1067px;
 }
 
 .box2-2 {
@@ -86,26 +93,31 @@ h1 {
   align-content: center;
   height: 600px;
   width: 533px;
-  padding: 20px;
 }
+
+/* #chain-icon {
+  flex-grow: 4;
+} */
 
 .textbox2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-  text-align: center;
+  padding: 30px;
   height: 400px;
 }
 
 .box2-2 p {
-  text-align: center;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 2;
 }
 
 .box3 {
   display: flex;
   flex-direction: row;
-  height: 600px;
+  /* align-items: flex-end; */
 }
 
 .box3-1 {
@@ -113,18 +125,23 @@ h1 {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  height: 600px;
   width: 533px;
+}
+
+.box3-1 p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 2;
 }
 
 .box3-2 {
   background-image: url("assets/Layer 12.png");
-  height: 600px;
-  width: 1067px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: contain;
+  background-repeat: no-repeat;
+  width: 1067px;
 }
 
 .textbox3 {
@@ -132,11 +149,44 @@ h1 {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  text-align: center;
+  padding: 30px;
+  height: 278px;
 }
 
-.box4-1 {
+.box4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.box4-left {
   background-image: url("assets/Layer 15.png");
-  height: 600px;
+  background: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 533px;
+  height: 600px;
+}
+
+.box4-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 533px;
+}
+
+.textbox4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+  padding: 30px;
+}
+
+.textbox4 p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 2;
 }
