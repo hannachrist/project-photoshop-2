@@ -14,6 +14,11 @@ header {
   background-position: center;
 }
 
+nav {
+  padding-top: 25px;
+  padding-right: 40px;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -23,7 +28,7 @@ nav ul {
 
 ul li {
   display: inline;
-  padding: 15px;
+  padding: 40px;
 }
 
 li a {
@@ -60,12 +65,15 @@ h1 {
 .box2 {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  height: 600px;
 }
 
 .box2-1 {
   background-image: url("assets/Layer 10.png");
   background-position: center;
-  width: 70%;
+  height: 600px;
+  width: 1067px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,5 +83,60 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  align-content: center;
+  height: 600px;
+  width: 533px;
+  padding: 20px;
+}
+
+.textbox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 400px;
+}
+
+.box2-2 p {
+  text-align: center;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+.box3-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 600px;
+  width: 533px;
+}
+
+.box3-2 {
+  background-image: url("assets/Layer 12.png");
+  height: 600px;
+  width: 1067px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.textbox3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.box4-1 {
+  background-image: url("assets/Layer 15.png");
+  height: 600px;
+  width: 533px;
 }
